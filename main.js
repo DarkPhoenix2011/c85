@@ -24,7 +24,7 @@ function add() {
 }
 
 function uploadBackground() {
-	ctx.drawImage(background_imgTag, 0, 0, canvas_width, canvas_height);
+	ctx.drawImage(background_imgTag, 0, 0, canvas.width, canvas.height);
 
 }
 
